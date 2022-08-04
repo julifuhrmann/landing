@@ -1,0 +1,68 @@
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1611945631554-6752962c7ce1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1, p {
+  color: white;
+  text-shadow:  1px 1px 1px, rgba(10,10,10,.4);
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(10,10,10,.4);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.card img {
+  height: 135px;
+  width: 200px;
+}
+
+.card p {
+  color: grey;
+  font-size: 12px;
+}
+
+.btn-apply {
+  background: rgb(236, 66, 139);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: color .2;
+  display: inline;
+  box-shadow: 2px 2px 4px rgba(10,10,10,.8);
+}
+
+.btn-apply:hover {
+  transition: color .2;
+  background-color: white;
+  color: rgb(236, 66, 139);
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: rgb(236, 66, 139);
+}
