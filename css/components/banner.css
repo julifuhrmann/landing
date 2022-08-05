@@ -50,13 +50,13 @@
   padding: 14px 28px;
   border-radius: 30px;
   text-decoration: none;
-  transition: color .2;
+  transition: color .2s;
   display: inline;
   box-shadow: 2px 2px 4px rgba(10,10,10,.8);
 }
 
 .btn-apply:hover {
-  transition: color .2;
+  transition: color .2s;
   background-color: white;
   color: rgb(236, 66, 139);
 }
